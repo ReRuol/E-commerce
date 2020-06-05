@@ -12,9 +12,9 @@
 
 ## 效果图
 
-<img src="./public/image/效果图1.png" align="left" >
-<img src="./public/image/效果图2.png" align="left" >
-<img src="./public/image/效果图3.png" align="left" >
+![image](public/image/效果图1.png)
+![image](public/image/效果图2.png)
+![image](public/image/效果图3.png)
 <br><br>
 
 ## 安装使用
