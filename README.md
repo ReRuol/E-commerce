@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## E-commerce 仿天猫电商App（移动端）
 
 * [预览链接](http://123.57.24.197/)
@@ -19,3 +20,7 @@
 ## 安装使用
 
 下载到本地后，使用npm install即可安装使用
+=======
+# E-commerce
+A simple e-commerce application made with React
+>>>>>>> 21bc9c001afc6a4e07b33f0cc5b04b5eee33862e
