@@ -1,0 +1,63 @@
+.page{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.main{
+    width: 100%;
+    margin-top: 2.5rem;
+    font-size: 0.65rem;
+    padding-top: 2rem;
+}
+
+.input-wrap{
+    width: 90%;
+    height: 2rem;
+    margin: 0.3rem auto 1rem;
+    border: 1px solid #dddddd;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.input-wrap .code{
+    width: 70%;
+    height: 96%;
+    margin-left: 0.8rem;
+    padding-top: 0.1rem;
+}
+
+.input-wrap .switch-wrap{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    padding-left: 5%;
+}
+
+.save-btn{
+    width: 90%;
+    height: 2rem;
+    background-color: tomato;
+    margin: 0 auto ;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    text-align: center;
+    line-height: 2.2rem;
+    color: #fff;
+    font-size: 0.8rem;
+}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["pages/transfer/index.js"],"names":["Transfer","Fragment"],"mappings":"iHAAA,2BAOeA,UALA,WACX,OACI,kBAAC,IAAMC,SAAP","file":"static/js/40.52bad408.chunk.js","sourcesContent":["import React from \"react\";\r\n\r\nconst Transfer=()=>{\r\n    return (\r\n        <React.Fragment></React.Fragment>\r\n    )\r\n}   \r\nexport default Transfer;"],"sourceRoot":""}

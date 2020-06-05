@@ -1,0 +1,110 @@
+.order-list{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 0.2rem;
+    margin-bottom:0.6rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.order-list .ordernum-wrap{
+    width: 94%;
+    height: 2rem;
+    border-bottom: 1px solid #c8c8c8;
+    padding:0 3%;
+    font-size: 0.65rem;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+.order-list .ordernum-wrap .ordernum, .order-list .ordernum-wrap .status{
+    width: auto ;
+    height: auto;
+}
+
+.item-list{
+    width: 94%;
+    height: 4.5rem;
+    padding:0 3%;
+    border-bottom: 1px solid #c8c8c8;
+    position: relative;
+    z-index: 1;
+}
+
+.item-list .image{
+    width: 3.3rem;
+    height: 3.3rem;
+    position: absolute;
+    left: 0.6rem;
+    top:0.6rem;
+}
+
+.item-list .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.item-list .title{
+    width: 70%;
+    height: auto ;
+    position: absolute;
+    z-index: 1;
+    left: 24%;
+    top:0.9rem;
+}
+
+.item-list .amount{
+    width: auto;
+    height: auto ;
+    position: absolute;
+    z-index: 1;
+    right: 0.5rem;
+    bottom:0.5rem;
+    font-size: 0.6rem;
+    color: #a3a2a2;
+}
+
+.total-wrap {
+    width: 94%;
+    height: 1.6rem;
+    padding:0 3%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+.total-wrap .total{
+    width: auto;
+    height: auto;
+    font-size: 0.6rem;
+}
+
+.total-wrap .status-btn{
+    width: 17%;
+    height: 1.1rem;
+    border: #eb4343 1.1px solid;
+    line-height: 1.1rem;
+    font-size: 0.6rem;
+    text-align: center;
+    border-radius: 8%;
+    -webkit-border-radius: 8%;
+    -moz-border-radius: 8%;
+    -ms-border-radius: 8%;
+    -o-border-radius: 8%;
+}

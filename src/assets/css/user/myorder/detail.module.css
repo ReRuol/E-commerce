@@ -1,0 +1,200 @@
+.page{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.main{
+    width: 100%;
+    margin-top: 2.5rem;
+    font-size: 0.7rem;
+}
+
+.ordernum{
+    width: auto;
+    height: auto;
+    padding: 0.6rem 0.4rem;
+}
+
+.ordernum.second{
+    font-size: 0.67rem;
+    border-bottom: 1px solid #c8c8c8;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.address-wrap{
+    width: 100%;
+    height: 5.5rem;
+    background-color: rgb(250, 230, 202);
+    border-top:1.3px dashed #48b2e4;
+    border-bottom:1.3px dashed #48b2e4;
+    position: relative;
+    z-index: 1;
+    font-size: 0.67rem;
+}
+
+.address-wrap .name{
+    width: auto ;
+    height:1.2rem;
+    line-height: 1.2rem;
+    position: absolute;
+    z-index: 1;
+    left: 3%;
+    top: 10%;
+}
+
+.address-wrap .name img,.address-wrap .cellphone img{
+    width: 1.2rem;
+    height: 1.2rem;
+    vertical-align: top;
+}
+
+.address-wrap .cellphone{
+    width: auto ;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    position: absolute;
+    z-index: 1;
+    right: 3%;
+    top: 10%;
+}
+
+.address-wrap .address{
+    width: 94%;
+    height: 1rem;
+    font-size: 0.6rem;
+    color: #929191;
+    line-height: 1rem;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    left: 3%;
+    bottom: 20%;
+    text-overflow: ellipsis;
+}
+
+.goods-list{
+    width: 94%;
+    height: 4rem;
+    padding:0 3%;
+    border-bottom: 1px solid #d8d6d6;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items:center;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+
+.goods-list .image{
+    width: 3rem;
+    height: 3rem;
+    
+}
+
+.goods-list .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+}
+
+.goods-list .goods-info{
+    width: 60%;
+    height: auto;
+    font-size: 0.6rem;
+}
+
+.goods-list .price{
+    font-size: 0.67rem;
+}
+
+.goods-list .goods-info .title{
+    width: 100%;
+    height: 2rem;
+}
+
+.goods-list .goods-info .attr{
+    width: 100%;
+    height: 1rem;
+    font-size: 0.55rem;
+    margin-top: 0.1rem;
+}
+
+.goods-list .goods-info .attr span{
+    margin-right: 0.5rem;
+}
+
+.goods-list .goods-info .attr .amount{
+    color: #8f8f8f;
+}
+
+.order-status{
+    width: 94%;
+    height: 1.7rem;
+    padding:0 3%;
+    border-bottom: 1px solid #c8c8c8;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    font-size: 0.67rem;
+}
+
+.total-wrap{
+    width: 100%;
+    height: 2.3rem;
+    padding: 0.2rem 0;
+    border-bottom: 1px solid #c8c8c8;
+    font-size: 0.64rem;
+}
+
+.total-wrap ul.total{
+    width: 94%;
+    height: 50%;
+    padding: 0 3%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    
+}
+
+.total-wrap ul.total li:nth-child(2){
+    color: #ff4d4d;
+}
+
+.true-total{
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.4rem;
+}
+
+.true-total .total{
+    width: auto;
+    text-align: right;
+    font-size: 0.67rem;
+    padding-right: 0.5rem;
+}
+
+.true-total .total span{
+    color: #ff4d4d;
+}
+
+.true-total .order-time{
+    width: auto;
+    text-align: right;
+    margin-top: 0.2rem;
+    font-size: 0.55rem;
+    padding-right: 0.5rem;
+    color: #8f8c8c;
+}

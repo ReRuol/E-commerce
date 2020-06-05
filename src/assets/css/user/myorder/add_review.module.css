@@ -1,0 +1,85 @@
+.page{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.main {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.service{
+    width: 100%;
+    height: 2.3rem;
+    border-bottom: 1px solid #d8d7d7;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.service li:nth-child(1){
+    font-size: 0.65rem;
+    margin-left: 7%;
+    margin-right: 19%;
+}
+
+.service li:nth-child(2){
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.service .stars{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-image: url('../../../images/user/orders/stars1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 0.5rem;
+}
+
+.service .stars.active{
+    background-image: url('../../../images/user/orders/stars2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.content-wrap{
+    margin-top: 0.8rem;
+    width: 100%;
+    height: 6.5rem;
+}
+
+.content-wrap textarea{
+    width: 98%;
+    height: 100%;
+    margin-left: 1%;
+    resize: none;
+    font-size: 0.65rem;
+    font-family: 微软雅黑;
+    border: 0 none;
+    outline: none;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.submit{
+    width: 90%;
+    height: 2rem;
+    display: block;
+    margin:1.5rem auto;
+    background-color: rgb(243, 61, 29);
+    font-size: 0.7rem;
+    color: #fff;
+    border: 0 none;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}

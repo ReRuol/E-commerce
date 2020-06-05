@@ -1,0 +1,19 @@
+.page{
+    margin-top: 2.3rem;
+    width: 94%;
+    background-color: #ffffff;
+    font-size: 0.7rem;
+    margin: 2.5rem auto;
+    padding:1rem 0.2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.page .content{
+    width: 90%;
+    margin: 0 auto;
+    word-wrap:break-word; 
+}
