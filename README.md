@@ -14,7 +14,7 @@
 
 ![image](public/image/效果图1.png)
 ![image](public/image/效果图2.png)
-![image](public/image/效果图3.png)
+<img src="./public/image/效果图3.png" align="left" >
 <br><br>
 
 ## 安装使用
